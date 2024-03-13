@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+header {
+    height: 40vh;
+    display: flex;
+    justify-content: top; 
+    align-items: center; 
+    
+}
+
+header::before{
+    content: "";
+    background-color: #EBCD93;
+    background-size: contain;
+    height: 45vh;
+    width: 98vw;
+    display: block;
+    position: absolute;
+    z-index: -10;
+}
+ body{
+background-color: #F9EBEB;
+
+
+ }
+h1{
+    font-family: "Revalia", sans-serif;
+    color: #000000;
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px
+    ;
+    }
+    
+#cabeçalho {
+    
+    background-color: #ebce93c4;
+    height: 13vh;
+    width: 98vw;
+    margin-bottom: 3vh;
+    
+   
+   
+}
+#cabeçalho h2 {
+        
+        display: inline-block;
+        margin-left: 12vw;
+        text-align: center;
+        margin-right: 10vw; /* Adicione margem direita para separar os elementos */
+        font-family: "Poppins", sans-serif;
+        color: #000000;
+        font-size: 30px;
+        font-weight: 500;
+        
+}
+ 
+    
+   
+
+#produto1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+#produto1 img {
+    height: 50vh;
+    width: 25vw;
+    margin-right: 20px;
+    margin-left: 15px;
+    align-self: flex-start;
+}
+
+#produto1 h2 {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    margin-top: 20px;
+   
+}
+#produto1 p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    margin-right: 40px;
+
+
+
+}
+#produto2 {
+    display: flex;
+    align-items: flex-start;
+}
+#produto2 img{
+    height: 50vh;
+    width: 25vw;
+    margin-right: 20px;
+    margin-left: 15px;
+    align-self: flex-start;
+    margin-top: 10px;
+
+}
+#produto2 h2 {
+    font-size: 24x;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+     margin-top: 20px;
+}
+#produto2 p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    margin-right: 40px;
+}
+#produto3 {
+    display: flex;
+    align-items: flex-start;
+}
+
+#produto3 img {
+    height: 50vh;
+    width: 25vw;
+    margin-right: 20px;
+    margin-left: 15px;
+    align-self: flex-start;
+}
+
+#produto3 h2 {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    margin-top: 20px;
+   
+}
+#produto3 p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+    margin-right: 40px;
+
+
+
+}
+
+    
+
+
+
