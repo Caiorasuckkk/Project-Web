@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+     <script src="./assets/js/script.js" defer></script>
 </head>
 
 <header>
@@ -121,17 +122,14 @@
                     <label for="emails">E-mail</label>
                     <input type="email" id="emails">
                 </div>
-                <div class="campo valor">
-                    <label for="valor">Pretende investir</label>
-                    <input type="number" id="valor">
-                </div>
+                
 
 
     
     
                 <div class="campo">
-                    <label for="paginas">Numero de Comôdos</label>
-                    <input type="number" id="paginas" min="1" value="1">
+                    <label for="comodos">Numero de Comôdos</label>
+                    <input type="number" id="comodos" min="1" value="1">
                 </div>
     
                 <div class="campo">
@@ -147,29 +145,17 @@
 
                     </select>
                 </div>
-    
-                <div class="campo linha">
-                    <label for="">Mais algum?</label>
-                    <div class="campo">
-                        <label for="tipo"></label>
-                        <select id="tipo">
-                                <option value="1" selected>Industrial</option>
-                                <option value="2">Moderno</option>
-                                <option value="3">Minimalista</option>
-                                <option value="4">Colonial</option>
-                                <option value="5">Clássico</option>
-                                <option value="6">Rústico</option>
-                                <option value="7">Tropical</option>
-                        </select>
-                    </div>
-        
+
+
+            
+            
+                <div class="valores">
+                    <label> Valor Médio : <output id="valor">R$ 10.000,00</output>
+                    </label>
+
                 </div>
+            
                 
-    
-    
-                <label for="prazo">Prazo</label>
-                <input type="range" min="1" max="12" id="prazo">
-    
             </form>
         </section>
     
