@@ -244,7 +244,12 @@ h1{
     margin: 0 auto;
     
 }
+.valores{
 
+font-size: larger;
+
+
+}
 .campo {
     display: flex;
     flex-direction: column;
@@ -253,7 +258,12 @@ h1{
 .linha {
     grid-column: 2 / 3;
 }
+.valores{
 
+    background-color: #ebb1b1;
+    position: center;
+
+}
 
 input[type=range]
 {
